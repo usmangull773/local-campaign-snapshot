@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Small, Local 11 Plus Google Ads Campaign — Snapshot</title>
+<meta name="description" content="A simple, local Google Ads plan to bring more Essex parents to 11 Plus enquiries, mock exams and courses, with a clear conversion setup and a proper communication rhythm." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#16324f; --navy2:#20456b; --ink:#20323f; --mut:#5f7385; --soft:#7d8fa0;
+    --bg:#ffffff; --alt:#f4f7fa; --line:#e2e9f0; --gold:#c98a2b; --gold2:#e0a84a; --ok:#2f8f6b;
+    --radius:14px; --maxw:980px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--navy);line-height:1.15;letter-spacing:-.2px}
+  a{color:var(--gold)}
+
+  header.nav{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;padding:15px 22px;max-width:var(--maxw);margin:0 auto}
+  .brand{font-family:'Fraunces',serif;font-weight:700;color:var(--navy);font-size:17px}
+  .brand small{display:block;font-family:'Inter';font-weight:600;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-top:2px}
+  .navlinks{display:flex;gap:20px;font-size:13.5px;font-weight:600;color:var(--mut)}
+  .navlinks a{text-decoration:none;color:var(--mut)}.navlinks a:hover{color:var(--navy)}
+  @media(max-width:780px){.navlinks{display:none}}
+
+  .hero{padding:56px 0 32px}
+  .kick{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);background:#fbf3e5;border:1px solid #f0dcb6;padding:6px 12px;border-radius:999px;font-family:'Inter'}
+  h1{font-size:clamp(29px,4.6vw,45px);margin:18px 0 0;max-width:18ch}
+  h1 em{font-style:italic;color:var(--gold)}
+  .lede{color:var(--mut);font-size:clamp(15px,2vw,18px);max-width:60ch;margin:16px 0 0;font-weight:500}
+
+  section{padding:38px 0;border-top:1px solid var(--line)}
+  .eyebrow{color:var(--gold);font-weight:800;font-size:11.5px;letter-spacing:1.2px;text-transform:uppercase;font-family:'Inter'}
+  h2{font-size:clamp(21px,3vw,30px);margin:9px 0 8px}
+  .sub{color:var(--mut);max-width:66ch;font-size:15px;font-weight:500}
+
+  .grid{display:grid;gap:14px;margin-top:22px}
+  .g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:800px){.g3,.g2{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:19px;box-shadow:0 1px 2px rgba(22,50,79,.04)}
+  .card h3{font-family:'Inter';font-weight:800;color:var(--navy);font-size:15px;margin-bottom:7px}
+  .card p{color:var(--mut);font-size:13.5px;font-weight:500}
+  .card ul{margin:8px 0 0;padding-left:17px}
+  .card li{color:var(--mut);font-size:13px;font-weight:500;margin-bottom:4px}
+  .chip{display:inline-block;font-size:12px;font-weight:600;background:var(--alt);border:1px solid var(--line);color:var(--navy);padding:3px 9px;border-radius:7px;margin:3px 4px 0 0}
+  .chip.neg{background:#fdf1ec;border-color:#f6d6c6;color:#b1521f}
+
+  .towns{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .town{background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:9px;padding:8px 13px;font-size:13.5px;font-weight:600;color:var(--navy)}
+
+  .track{margin-top:20px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(max-width:700px){.track{grid-template-columns:1fr}}
+  .tk{background:var(--alt);border:1px solid var(--line);border-radius:12px;padding:15px}
+  .tk .ic{width:26px;height:26px;border-radius:7px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:800;font-size:14px;margin-bottom:8px}
+  .tk b{color:var(--navy);font-family:'Inter';font-size:14px}.tk p{color:var(--mut);font-size:12.5px;font-weight:500;margin-top:3px}
+
+  .comms{margin-top:22px;background:linear-gradient(120deg,#f5f9fc,#fff);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:14px;padding:22px}
+  .comms h3{font-size:19px;margin-bottom:8px}
+  .comms p{color:var(--mut);font-size:14.5px;font-weight:500}
+  .comms .list{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .comms .list div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:13px;font-weight:600;color:var(--navy)}
+
+  .note{margin-top:20px;background:var(--alt);border:1px solid var(--line);border-radius:12px;padding:15px 18px}
+  .note p{color:var(--mut);font-size:13.5px;font-weight:500}.note b{color:var(--navy)}
+
+  .final{background:var(--navy);border-radius:16px;padding:32px 26px;text-align:center;margin:32px 0;color:#fff}
+  .final h2{color:#fff}
+  .final p{color:#c7d6e4;max-width:54ch;margin:8px auto 0;font-weight:500}
+  footer{padding:24px 0 46px;color:var(--soft);font-size:12.5px;text-align:center;border-top:1px solid var(--line);font-weight:500}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-in">
+    <div class="brand">11 Plus · Local Google Ads<small>Campaign snapshot</small></div>
+    <nav class="navlinks">
+      <a href="#structure">Structure</a>
+      <a href="#local">Local &amp; keywords</a>
+      <a href="#tracking">What we measure</a>
+      <a href="#talk">How we work</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero" style="border-top:none">
+    <span class="kick">A small, local campaign · built for Essex parents</span>
+    <h1>More local enquiries. And someone you can <em>actually talk to</em>.</h1>
+    <p class="lede">A simple Google Ads plan that puts your tuition in front of the right Essex parents when they are searching, sends them to a callback or a mock booking, and comes with a real conversation, not a set-and-forget setup.</p>
+  </section>
+
+  <!-- STRUCTURE -->
+  <section id="structure">
+    <span class="eyebrow">Campaign structure</span>
+    <h2>Tight campaigns, matched to how parents search</h2>
+    <p class="sub">Kept simple on purpose, so a small budget stays focused on the searches most likely to become an enquiry.</p>
+    <div class="grid g3">
+      <div class="card"><h3>By location</h3><p>A campaign per catchment so ads and budget follow demand:</p><ul><li>Chelmsford (HQ)</li><li>Colchester, Southend</li><li>Brentwood, Ilford</li><li>Havering, Thurrock</li></ul></div>
+      <div class="card"><h3>By service</h3><p>Different intent, different message:</p><ul><li>1-to-1 tuition</li><li>Mock exams</li><li>Summer intensive courses</li><li>Group tuition centres</li></ul></div>
+      <div class="card"><h3>By exam</h3><p>Parents search by the exact exam their child sits:</p><ul><li>CSSE</li><li>CCHS (FSCE)</li><li>GL and CEM</li><li>Grammar school entrance</li></ul></div>
+    </div>
+  </section>
+
+  <!-- LOCAL + KEYWORDS -->
+  <section id="local">
+    <span class="eyebrow">Local targeting and keywords</span>
+    <h2>Only pay for the right parents, in the right towns</h2>
+    <p class="sub">Tight radius targeting around each centre, so a small budget is never wasted on clicks from outside your area.</p>
+    <div class="towns">
+      <span class="town">Chelmsford</span><span class="town">Colchester</span><span class="town">Southend</span><span class="town">Brentwood</span><span class="town">Ilford</span><span class="town">Havering</span><span class="town">Thurrock</span><span class="town">+ online / distance</span>
+    </div>
+    <div class="grid g2" style="margin-top:18px">
+      <div class="card"><h3>High-intent keywords</h3><div>
+        <span class="chip">11 plus tutor essex</span>
+        <span class="chip">11 plus tutor chelmsford</span>
+        <span class="chip">CSSE tutor</span>
+        <span class="chip">11 plus mock exams essex</span>
+        <span class="chip">grammar school tuition [town]</span>
+        <span class="chip">CCHS 11 plus tutor</span>
+      </div><p style="margin-top:9px">Single-theme ad groups so the ad and landing page match the exact search.</p></div>
+      <div class="card"><h3>Negative keywords (protect the budget)</h3><div>
+        <span class="chip neg">free</span>
+        <span class="chip neg">jobs</span>
+        <span class="chip neg">free papers pdf</span>
+        <span class="chip neg">answers</span>
+        <span class="chip neg">course teacher jobs</span>
+      </div><p style="margin-top:9px">Refined weekly from the real search terms, so spend keeps tightening around genuine parents.</p></div>
+    </div>
+    <div class="card" style="margin-top:14px"><h3>Ad copy that uses what already makes you trusted</h3><p>Your credibility does the selling: <b>award-winning</b>, featured on <b>BBC Radio 5, BBC Essex and ITV Anglia</b>, <b>DBS-checked qualified teachers</b>, and a proven grammar-school success rate. Every ad ends on a clear next step, Request a Callback or Book a Mock.</p></div>
+  </section>
+
+  <!-- TRACKING -->
+  <section id="tracking">
+    <span class="eyebrow">What we measure</span>
+    <h2>See exactly which ads bring enquiries</h2>
+    <p class="sub">Your site already has Google Tag Manager, so we use it to track the actions that matter, and know which town and keyword each enquiry came from.</p>
+    <div class="track">
+      <div class="tk"><div class="ic">1</div><b>Callback requests</b><p>Every Request a Callback form submit tracked as a conversion.</p></div>
+      <div class="tk"><div class="ic">2</div><b>Phone calls</b><p>Call tracking on your centre numbers and call extensions, so calls from ads are counted.</p></div>
+      <div class="tk"><div class="ic">3</div><b>Shop bookings</b><p>Mock exam and course purchases tracked, so we see real revenue, not just clicks.</p></div>
+    </div>
+    <div class="note"><p><b>Honest note:</b> this is the structure I would start with. Once I am in the account and can see your current data, I refine the towns, keywords and budgets around what is actually converting, rather than guessing.</p></div>
+  </section>
+
+  <!-- HOW WE WORK / COMMS -->
+  <section id="talk">
+    <span class="eyebrow">How we work together</span>
+    <h2>The part you actually asked for</h2>
+    <div class="comms">
+      <h3>A real conversation, not set-and-forget</h3>
+      <p>You said you want someone you can talk to about the campaign. That is how I prefer to work anyway. You will always know what is running, why, and what it is bringing in.</p>
+      <div class="list">
+        <div>Quick kickoff call to agree goals and budget</div>
+        <div>A short weekly check-in call</div>
+        <div>A plain-English update, no jargon</div>
+        <div>Fast replies when you have a question</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="final">
+    <span class="eyebrow" style="color:var(--gold2)">Next step</span>
+    <h2>Let's have a quick chat first</h2>
+    <p>Before anything goes live, a short call to understand your goals, your best-selling services and your budget. Then I set this up properly and we review it together, week by week.</p>
+  </div>
+
+</div>
+
+<footer>
+  Local Google Ads · 11 Plus &amp; grammar school tuition · Essex catchments · Call &amp; form tracking · Weekly reporting
+</footer>
+
+</body>
+</html>
